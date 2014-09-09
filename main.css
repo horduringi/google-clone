@@ -140,3 +140,10 @@ footer {
 .center-align {
 	text-align: center;
 }
+@media (max-height: 495px) {
+	footer {
+		position: static;
+		margin-top: 68px;
+		height: 37px;
+	}
+}
